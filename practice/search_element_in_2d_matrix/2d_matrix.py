@@ -6,7 +6,7 @@ def search_2d_sorted_matrix(mat,target):
     n=len(mat)
     while (i<n and j>0):
         if mat[i][j]==target:
-            return True
+            return (i,j)
         elif(mat[i][j])>target:
             j-=1
         else :
@@ -20,7 +20,7 @@ mat = [[1,4,7,11,15],
        [10,13,14,17,24],
        [18,21,23,26,30]]
 
-target=5000
+target=30
 print(search_2d_sorted_matrix(mat,target))
 
 

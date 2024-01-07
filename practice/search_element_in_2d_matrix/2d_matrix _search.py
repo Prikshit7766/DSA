@@ -4,8 +4,9 @@ mat = [[10, 20, 30, 40],
        [32, 33, 39, 50]]
 
 x=50
-for  i in range(4):
-       for j in range(4):
+l=len(mat)
+for  i in range(l):
+       for j in range(l):
               if mat[i][j]==x:
                      a=[i,j]
                      break
@@ -15,4 +16,6 @@ if not a:
 else:
        print(*a)
 
+
+print(mat[a[0]][a[1]])
 # brute force approch
