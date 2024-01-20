@@ -1,4 +1,4 @@
-# 1 approch   :  Time complexity - > O(n)
+# 1 approch Hashing  :  Time complexity - > O(n)
 print("1 approch")
 arr1 = [0,1,3]
 m=[]
